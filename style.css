@@ -1,0 +1,138 @@
+/* This will style the body element */
+
+body {
+    /* "Department of Coffee and Social Affairs" by Michael Dales is Licensed under CC BY-NC 2.0 */
+    background-image: url(images/departmentOfCoffee.jpeg);
+    background-position: center;
+}
+
+/* This will style the wrapper class to center the content */
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+/* This will style the header where the logo will go */
+
+header {
+    min-height: 125px;
+    background-color: rgba(214, 149, 29, 0.281);
+}
+
+
+.logoImage {
+    height: 118px;
+}
+
+/* This will style the nav box */
+
+nav {
+    min-height: 45px;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+/* Style the links to other pages for both nav and link to portledge website */
+
+/* Compound Selector - target only links inside of the nav */
+nav a {
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+a {
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* This will style the main */
+
+main {
+    min-height: 400px;
+    text-align: center;
+    padding-top: 80px;
+    padding-left: 240px;
+    padding-right: 240px;
+
+}
+
+/* Compound Selctor */
+main h1 {
+    font-size: 85px;
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 1px 1px 2px chocolate;
+
+}
+
+/* Do this: set the font size to 50px, change the color to white, pick a font family, add a text shadow  */
+main h2 {
+    font-size: 50px;
+    color: antiquewhite;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Do this: Set the size to 18px change the color, to rgba (294,111, 93 ,1), Change the font family, and also add a text shadow */
+main p {
+    margin-bottom: 32px;
+    font-size: 18px;
+    color: antiquewhite;
+    background-color: transparent;
+    border-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.contactText {
+    color: antiquewhite;
+    font-size: 20px;
+}
+
+.portledgelinkhome {
+    font-size: 20px;
+}
+
+a {
+    font-size: 20px;
+}
+
+ul {
+    font-size: 20px;
+    background-color: rgba(128, 128, 128, 0.507);
+    color: wheat;
+    list-style: none;
+}
+
+.myButton {
+    text-decoration: none;
+    padding: 20px 40px;
+    border: 1px solid black;
+    margin-top: 32px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    color: palevioletred;
+}
+
+.map {
+    text-align: center;
+    margin-top: 32px;
+}
+
+/* This will style the footer */
+
+footer {
+    min-height: 35px;
+    min-width: 45px;
+    color: antiquewhite;
+}
+
+footer p {
+    color: whitesmoke;
+    text-align: center;
+    font-family: fantasy;
+    padding: 16px;
+}
